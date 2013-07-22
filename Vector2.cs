@@ -53,26 +53,29 @@ namespace Aardvark {
         /// <summary>
         /// Gets the angle between the two given vectors
         /// </summary>
-        /// <returns></returns>
         public static double AngleBetween(Vector2 u, Vector2 v) {
             return Math.Acos((u * v) / (u.Length * v.Length));
         }
         /// <summary>
         /// Negates the vector
         /// </summary>
-        public void Negate() { /*this.x *= -1; this.y *= -1;*/ this = this * -1; }
+        public void Negate() { this *= -1; }
         /// <summary>
         /// Normalizes the vector, turning it into a vector in the same direction with a magnitude of one.
         /// </summary>
         public void Normalize() { this = this / (float)this.Length; }
-
         /// <summary>
         /// Takes a string in the form "x,y" and converts it to a Vector
         /// </summary>
         /// <param name="s"> The string to construct the vector from.</param>
-        [System.Obsolete]
         public static Vector2 Parse(String s) {//TODO
-            return new Vector2();
+            string[] numbers=s.Split(',');
+            try {
+                return new Vector2(float.Parse(numbers[0]), float.Parse(numbers[1]));
+            } catch (Exception e) {
+                Console.Write(e);
+                return new Vector2();
+            }
         }
     } 
 }
