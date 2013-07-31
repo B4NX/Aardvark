@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 namespace Aardvark {
-    static class GV {
+    public class GV {
         private static List<object> G = new List<object>();
 
         public static void Add(Object o){
@@ -15,5 +15,12 @@ namespace Aardvark {
         }
 
         public static List<object> Variables { get { return G; } }
+        public override string ToString() {
+            string s="";
+            foreach (Object o in G) {
+                s += o.ToString() + "\n";
+            }
+            return s;
+        }
     }
 }
