@@ -32,7 +32,6 @@ Global
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Debug|x86.Build.0 = Debug|x86
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|Any CPU.ActiveCfg = Release|x86
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|Mixed Platforms.Build.0 = Release|x86
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|x86.ActiveCfg = Release|x86
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection

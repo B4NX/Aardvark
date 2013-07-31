@@ -1,4 +1,0 @@
-C:\Users\Nikko\Documents\Dev\C#\Aardvark\bin\Debug\Aardvark.dll
-C:\Users\Nikko\Documents\Dev\C#\Aardvark\bin\Debug\Aardvark.pdb
-C:\Users\Nikko\Documents\Dev\C#\Aardvark\obj\Debug\Aardvark.dll
-C:\Users\Nikko\Documents\Dev\C#\Aardvark\obj\Debug\Aardvark.pdb
