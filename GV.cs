@@ -14,6 +14,10 @@ namespace Aardvark {
             G.Remove(o);
         }
 
+        public static Object GetAtIndex(int i) {
+            return G[i];
+        }
+
         public static List<object> Variables { get { return G; } }
         public override string ToString() {
             string s="";
