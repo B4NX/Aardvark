@@ -14,8 +14,8 @@ namespace Aardvark {
             G.Remove(o);
         }
 
-        public static object GetAtIndex(int i) {
-            return (G[i].GetType())G[i];
+        public static T GetAtIndex<T>(int i) {
+            return (T)G[i];
         }
 
         public static List<object> Variables { get { return G; } }
