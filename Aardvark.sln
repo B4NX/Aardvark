@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aardvark", "Aardvark.csproj", "{D14B6A5C-0B63-4356-81C9-0BF0F5452EA3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{950ADC44-65FE-471E-A648-2F31684C2489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monket", "..\Monket\Monket.csproj", "{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +36,16 @@ Global
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|Mixed Platforms.ActiveCfg = Release|x86
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|x86.ActiveCfg = Release|x86
 		{950ADC44-65FE-471E-A648-2F31684C2489}.Release|x86.Build.0 = Release|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Debug|x86.ActiveCfg = Debug|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Debug|x86.Build.0 = Debug|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Release|Any CPU.ActiveCfg = Release|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Release|Mixed Platforms.Build.0 = Release|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Release|x86.ActiveCfg = Release|x86
+		{5D5F84E8-1F27-4571-BFED-28F4C5CC5614}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
